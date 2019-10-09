@@ -1,0 +1,19 @@
+ISSUES
+  -ma cut ang paragraph both sa about and work sections.
+  -make gradient responsive to the scroll in about and work sections.
+  -the timeouts are not dynamic(dependent to the animation duration). so that we don't have to wait so 
+  long.
+  -control the scroll to be dynamic(depends on the content of the paragraph)
+TODO
+  -make the arrow thinner
+  -add circles to the social media icon
+  -change images to higher quality.
+
+Supported  Devices:
+  -1920x1080 screen
+  -1366x768 screen
+  -Ipad Mini(Portrait)
+
+Opinions
+  -I think that the scroll functionality of the paragraphs are needed because of the inconsistency of 
+    the height of the browsers.

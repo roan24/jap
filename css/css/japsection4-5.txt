@@ -1,0 +1,143 @@
+<section class="shots">
+		<div class="container">
+			<div class="content-head">
+				<h3>Check Product Screenshots</h3>
+				<p>Suspendisse egestas mattis rhoncus pellen tesque euismod erat at posuere molestie lorem lectus interdum augue</p>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="shots-slider">
+						<div class="shots-thumb">
+							<a href="images/shots/1.jpg" class="prettyPhoto">
+								<img src="images/shots/1.jpg" class="img-responsive" alt=""/>
+							</a>
+						</div>
+						<div class="shots-thumb">
+							<a href="images/shots/2.jpg" class="prettyPhoto">
+								<img src="images/shots/2.jpg" class="img-responsive" alt=""/>
+							</a>
+						</div>
+						<div class="shots-thumb">
+							<a href="images/shots/3.jpg" class="prettyPhoto">
+								<img src="images/shots/3.jpg" class="img-responsive" alt=""/>
+							</a>
+						</div>
+						<div class="shots-thumb">
+							<a href="images/shots/4.jpg" class="prettyPhoto">
+								<img src="images/shots/4.jpg" class="img-responsive" alt=""/>
+							</a>
+						</div>
+						<div class="shots-thumb">
+							<a href="images/shots/5.jpg" class="prettyPhoto">
+								<img src="images/shots/5.jpg" class="img-responsive" alt=""/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- SCREENSHOTS -->
+
+
+	<!-- FOOTER -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+
+				<!-- Contact Info -->
+				<div class="col-md-5" id="contact-info">
+					<h5>Contact <span>Info</span></h5>
+					<ul class="contact-info">
+						<li>
+							<i class="fa fa-phone"></i>
+							+1800 1234 5678
+						</li>
+						<li>
+							<i class="fa fa-envelope-o"></i>
+							info@domain.com
+						</li>
+						<li>
+							<i class="fa fa-map-marker"></i>
+							#12, Some Street County 123456
+						</li>
+						<li>
+							<div class="f-social">
+								<a href="#" class="fa fa-facebook"></a>
+								<a href="#" class="fa fa-twitter"></a>
+								<a href="#" class="fa fa-google-plus"></a>
+								<a href="#" class="fa fa-dribbble"></a>
+								<a href="#" class="fa fa-instagram"></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Contact Form -->
+				<div class="col-md-7">
+					<h5>Shoot a <span>message!</span></h5>
+					<form id="contactForm" action="php/contact.php" method="post">
+						<div class="row">
+							<div class="col-md-6">
+								<input name="senderName" id="senderName" type="text" placeholder="Name" required="required" />
+								<input type="email" name="senderEmail" id="senderEmail" placeholder="Email address" required="required"/>
+							</div>
+							<div class="col-md-6">
+								<textarea rows="4" name="message" id="message" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<p>*Note: Email Address will not be shared</p>
+							</div>
+							<div class="col-md-6">
+								<button type="submit" class="btn-main pull-right">Send</button>
+							</div>
+						</div>
+					</form>
+					<div id="sendingMessage" class="statusMessage">
+						<p><i class="fa fa-spin fa-spinner"></i> Sending your message. Please wait...</p>
+					</div>
+					<div id="successMessage" class="successmessage">
+						<p><i class="fa fa-check"></i> Thanks for sending your message! We'll get back to you shortly.</p>
+					</div>
+					<div id="failureMessage" class="errormessage">
+						<p><i class="fa fa-close"></i> There was a problem sending your message. Please try again.</p>
+					</div>
+					<div id="incompleteMessage" class="statusMessage">
+						<p><i class="fa fa-warning"></i> Please complete all the fields in the form before sending.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- FOOTER -->
+
+	<!-- FOOTER / COPYRIGHT -->
+	<div class="footer-copy">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<p>&copy; 2015. Sleek. All rights reserved. Designed by <a href="http://themeforest.net/user/Dilipkumar" target="_blank">Dilipkumar</a>.</p>
+				</div>
+
+				<div class="col-md-5">
+					<a class="backtotop page-scroll" href="#page-top">Back to top &Delta;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- FOOTER / COPYRIGHT -->
+</div>
+
+<!-- TERMS / POPUP -->
+<div class="overlay-dark"></div>
+<div class="terms">
+	<span class="t-close fa fa-close"></span>
+	<h3>Terms and Conditions</h3>
+	<ul>
+		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed justo a erat blandit maximus. Mauris et odio eu nisl viverra pharetra vel quis ante. Sed finibus mauris nisl, vel semper diam rutrum id. Phasellus placerat augue ac fringilla lacinia. Cras feugiat feugiat nulla, eu dignissim ante faucibus in. Phasellus a quam nunc. Nulla ac vehicula ipsum. In molestie egestas magna vitae euismod. Donec aliquet pellentesque nulla, in blandit felis aliquet id. Nunc vel mauris eget est convallis aliquam. Aliquam arcu augue, tincidunt convallis metus non, blandit fringilla lacus.</li>
+		<li>Sed varius et augue eu tristique. Duis pulvinar, lorem ac vestibulum accumsan, lorem augue elementum magna, vitae vehicula orci ante at augue. Nam placerat, nulla sit amet placerat lobortis, ante sem dapibus purus, quis efficitur ipsum ipsum eget leo. Cras elementum id neque eget euismod. Vestibulum tempus, eros vitae rutrum malesuada, metus dui viverra arcu, ac molestie nisl lacus ut tellus. Proin condimentum quam quis urna venenatis cursus. Donec sit amet felis in purus convallis imperdiet quis in mi. Sed gravida, purus nec porta dapibus, est elit egestas ante, sit amet dignissim eros mauris a tortor. Integer erat elit, porttitor et lobortis a, mollis eu turpis. Etiam porttitor augue nec erat luctus, eu varius orci malesuada. Phasellus blandit leo id pretium rutrum. Nunc ac vestibulum lacus. In viverra laoreet orci, vitae dictum turpis. Nunc metus neque, rhoncus eget rhoncus congue, cursus a turpis. Duis placerat turpis nunc, vitae elementum nibh pellentesque convallis. Maecenas pulvinar leo sed fringilla venenatis.</li>
+		<li>Nulla tristique libero ut pellentesque mollis. Praesent condimentum viverra lacus, at consequat sapien ultricies quis. Suspendisse nec gravida nisl, et euismod arcu. Etiam eu condimentum risus, vel gravida lacus. In vitae est a nisl scelerisque molestie id a libero. Ut eget nisi at dolor maximus hendrerit. Nam non mattis ex, quis mattis velit.</li>
+	</ul>
+</div>
